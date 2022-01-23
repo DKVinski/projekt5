@@ -1,0 +1,19 @@
+{
+  "name": "example-pwa",
+  "version": "1.0.0",
+  "description": "A simple example PWA with an app-manifest and precaching",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "pwa"
+  ],
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "web-push": "^3.4.5"
+  }
+}
